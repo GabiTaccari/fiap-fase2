@@ -73,6 +73,15 @@ ngrok http minikube_ip:porta_get_services
 ```
 
 <h2>Postman Collection e execução das APIs:</h2>
+<br><br>
+<h4>Postman Collection</h4><br>
+O arquivo da collection do postman está disponível na raiz desse repositório, sendo disponibilizada nesse link: https://github.com/GabiTaccari/fiap-fase2/blob/main/SOAT%20Tech%20-%20fase%202.postman_collection
+<br>
+Afim de evitar erros, também está disponível pelo google drive, através do link: https://drive.google.com/file/d/1BJyUuyNDVpgjI51X_1XthT1ZwEoZfuzO/view?usp=sharing <br>
+<br>
+
+<h4>Ordem de execução das APIs:</h4>
+
 
 <h2>Vídeo de apresentação:</h2>
 
