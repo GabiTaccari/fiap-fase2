@@ -8,9 +8,8 @@ Este projeto é uma API para um sistema de autoatendimento de uma lanchonete, de
 <br><br>
 <img align="center" width="761" height="571" alt="Arquitetura Aplicação" src="https://github.com/user-attachments/assets/b3072f35-9d00-493e-a2e7-7ddfcaf5a6a9" />
 
-<h2>Postman Collection:</h2>
-
 <h2>Funcionalidades atendidas:</h2>
+
 - Produtos:
     - Cadastro de novos produtos
     - Alteração de dados dos produtos
@@ -41,7 +40,9 @@ Este projeto é uma API para um sistema de autoatendimento de uma lanchonete, de
 <h2>Como executar localmente</h2>
 Nota: No caso de execução localmente, necessário comentar a linha XX do arquivo .env e descomentar a linha XX do arquivo .env (banco de dados)<br/>
 Start do ngrok -> necessário para o webhook do mercado pago.<br/>
-```bat
+
+
+```
 ngrok http localhost:3000
 ```
 Substituir a URL fornecida pelo ngrok no arquivo XX, linha XX. Isso fará com que o pagamento seja retornado pelo MP e atualizado em nossa base de dados.
@@ -53,13 +54,14 @@ docker compose up
 
 <h2>Como executar localmente (minikube)</h2>
 Minikube/Kubernete
-```console
+
+```bash
 minikube start
 minikube service soat-tech-service
 kubectl get pods
 kubectl exec
-[NOME DO POD] -- npx prisma migrate dev --name init
-[NOME DO POD] -- sh
+NOME_DO_POD -- npx prisma migrate dev --name init
+NOME_DO_POD -- sh
 npx ts-node /app/prisma/seed.ts
 kubectl rollout restart deployment soat-tech-deployment
 ```
@@ -67,15 +69,16 @@ Start do ngrok -> necessário para o webhook do mercado pago.
 ```console
 kubectl get services
 minikube ip
-ngrok http [minikube_ip]:[porta_get_services]
+ngrok http minikube_ip:porta_get_services
 ```
 
-Execução das APIs:
+<h2>Postman Collection e execução das APIs:</h2>
 
-Vídeo de apresentação:
+<h2>Vídeo de apresentação:</h2>
 
 
-Alunos:
-Gabriela Gonçalves Taccari (RM:rm360973 Discord:)
-Rainer Lima Gramm
-Felipe Mello 
+<br>
+<h3>Alunos:</h3><br>
+Gabriela Gonçalves Taccari (RM:rm360973 Discord:)<br/>
+Rainer Lima Gramm<br/>
+Felipe Mello <br/>
