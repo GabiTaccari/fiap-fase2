@@ -39,9 +39,9 @@ Este projeto é uma API para um sistema de autoatendimento de uma lanchonete, de
     - Consulta de status de pagamento
   
 <h2>Como executar localmente</h2>
-Nota: No caso de execução localmente, necessário comentar a linha XX do arquivo .env e descomentar a linha XX do arquivo .env (banco de dados)
-Start do ngrok -> necessário para o webhook do mercado pago.
-```console
+Nota: No caso de execução localmente, necessário comentar a linha XX do arquivo .env e descomentar a linha XX do arquivo .env (banco de dados)<br/>
+Start do ngrok -> necessário para o webhook do mercado pago.<br/>
+```bat
 ngrok http localhost:3000
 ```
 Substituir a URL fornecida pelo ngrok no arquivo XX, linha XX. Isso fará com que o pagamento seja retornado pelo MP e atualizado em nossa base de dados.
