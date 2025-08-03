@@ -79,15 +79,15 @@ Afim de evitar erros, também está disponível pelo google drive, através do l
 <br>
 
 <h4>Ordem de execução das APIs:</h4>
-- Cadastro de cliente
-- Listar categoria (para ter o ID da categoria ao criar o produto)
-- Cadastro de produto
-- Criação de pedido
-- Gerar pagamento qr code
-- Consultar status do pedido
-- Atualizar status do pagamento (caso não efetuado via qr code)
-- Atualizar status do pedido
-
+- Cadastro de cliente<br/>
+- Listar categoria (para ter o ID da categoria ao criar o produto)<br/>
+- Cadastro de produto<br/>
+- Criação de pedido<br/>
+- Gerar pagamento qr code<br/>
+- Consultar status do pedido<br/>
+- Atualizar status do pagamento (caso não efetuado via qr code)<br/>
+- Atualizar status do pedido<br/>
+<br/>
 
 <h2>Vídeo de apresentação:</h2>
 https://www.youtube.com/watch?v=cj1GUWFsTIQ
