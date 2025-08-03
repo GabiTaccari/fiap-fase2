@@ -94,6 +94,6 @@ https://www.youtube.com/watch?v=cj1GUWFsTIQ
 
 <br>
 <h3>Alunos:</h3><br>
-Gabriela Gonçalves Taccari (RM:rm360973 Discord:)<br/>
-Rainer Lima Gramm<br/>
-Felipe Mello <br/>
+Gabriela Gonçalves Taccari (RM:rm360973 Discord: #gabriela3468)<br/>
+Rainer Lima Gramm (RM: 360974 Discord: #gramm9227)<br/>
+Felipe Mello (RM: 361257)<br/>
