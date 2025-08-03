@@ -59,11 +59,9 @@ Minikube/Kubernete
 minikube start
 minikube service soat-tech-service
 kubectl get pods
-kubectl exec
-NOME_DO_POD -- npx prisma migrate dev --name init
-NOME_DO_POD -- sh
+kubectl exec NOME_DO_POD -- npx prisma migrate dev --name init
+kubectl exec NOME_DO_POD -- sh
 npx ts-node /app/prisma/seed.ts
-kubectl rollout restart deployment soat-tech-deployment
 ```
 Start do ngrok -> necessário para o webhook do mercado pago.
 ```console
@@ -81,10 +79,18 @@ Afim de evitar erros, também está disponível pelo google drive, através do l
 <br>
 
 <h4>Ordem de execução das APIs:</h4>
+- Cadastro de cliente
+- Listar categoria (para ter o ID da categoria ao criar o produto)
+- Cadastro de produto
+- Criação de pedido
+- Gerar pagamento qr code
+- Consultar status do pedido
+- Atualizar status do pagamento (caso não efetuado via qr code)
+- Atualizar status do pedido
 
 
 <h2>Vídeo de apresentação:</h2>
-
+https://www.youtube.com/watch?v=cj1GUWFsTIQ
 
 <br>
 <h3>Alunos:</h3><br>
